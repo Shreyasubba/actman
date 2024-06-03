@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BfspuzzleComponent } from './bfspuzzle/bfspuzzle.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BfspuzzleComponent
   ],
   imports: [
     BrowserModule,

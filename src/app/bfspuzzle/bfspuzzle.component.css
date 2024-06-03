@@ -1,0 +1,28 @@
+
+.board-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+   
+  }
+  .grid_board{
+    display: grid;
+    grid-gap: 2px;
+}
+.grid_board_row {
+    display: grid; /* Change display property to grid */
+  grid-template-columns: repeat(11, 50px);
+}
+.grid_board_cells {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray; /* Customize cell background color */
+  border: 1px solid black; /* Add border to cells */
+  font-size: 24px; /* Adjust font size as needed */
+  height: 50px; /* Adjust cell height */
+  width: 50px; /* Adjust cell width */
+    
+
+}

@@ -1,0 +1,10 @@
+<div class="board-container">
+<div class="grid_board">
+    <div *ngFor="let r of board" class="grid_board_row">
+     <div *ngFor="let cell of r.split('')" class="grid_board_cells" >
+        {{cell}}
+    </div>
+    
+    </div>
+</div>
+</div>
